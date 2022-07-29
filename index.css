@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.body{
+    background-color: hsl(30, 38%, 92%);
+    height: 100hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.main{
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    outline: none;
+    border: none;
+    position: relative;
+    left: 10px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 5px 5px 5px;
+    font-size: medium;
+}
+
+span{
+    padding-right: 10px;
+}
+
+.inner-div-left{
+    flex: 0.5;
+    background-image: url(./images/image-product-desktop.jpg);
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.inner-div-right{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 10px 10px 10px;
+   
+}
+
+h1{
+    padding-top: 20px;
+    padding-left: 10px;
+    color: hsl(212, 21%, 14%);
+}
+
+.head1{
+    letter-spacing: 5px;
+    font-size: medium;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+h3, h4{
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+h3{
+    padding-top: 20px;
+    padding-left: 10px;
+    color: hsl(158, 36%, 37%);
+}
+
+h4{
+    padding-left: 10px;
+    padding-top: 20px;
+    color: hsl(228, 12%, 48%);
+}
+
+p{
+    padding-top: 20px;
+    padding-left: 10px;
+    color: hsl(228, 12%, 48%);
+}
+
+.attribution{
+    padding-top: 50px;
+}
